@@ -20,3 +20,5 @@ const numberTimesTwo = numbers.map((number) => {
 });
 
 console.log(numberTimesTwo);
+
+console.log(numbers.map((number)))

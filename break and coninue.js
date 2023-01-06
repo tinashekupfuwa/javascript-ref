@@ -9,7 +9,9 @@ for (var i = 0; i <= 10; i++) {
 
 for (var i = 0; i <= 10; i++) {
   if (i == 5) {
-    continue; //run code bel ow after reaching  a condition.security guard.
+    continue; //run code below after reaching  a condition.security guard.
   }
   console.log(i);
 }
+
+
