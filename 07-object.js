@@ -1,13 +1,13 @@
 var person = {
-  firstName: "jamila",
-  age: 21,
-  isFemale: true,
-  balance: 100.32,
-  dob: new Date(2022, 01, 10).toJSON(),
-  address: {
-    city: "Londdon",
-    postCode: "SW9",
-  },
+	firstName: "jamila",
+	age: 21,
+	isFemale: true,
+	balance: 100.32,
+	dob: new Date(2022, 0o1, 10).toJSON(),
+	address: {
+		city: "London",
+		postCode: "SW9"
+	}
 };
 
 console.log(person.firstName);
